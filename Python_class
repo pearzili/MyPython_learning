@@ -1,0 +1,25 @@
+class Aninmal(object):
+    pass
+class Dog(Animal):
+    def_inint_(self,name):#构造函数
+        self.name=name
+class Cat(Animal):
+    def_init_(self,name):
+        self.name=name
+class Person(object):
+    def_init_(self,name):
+        self.name=name;
+        self.pet=None
+class Employee(Person):
+    def_init_(self,name,salary):
+        super(Employee,self)._init_(name)
+        self.salary=salary
+class Fish(object):
+    pass
+class Salmaon(Fish):
+    pass
+class Halibut(Fish):
+    pass
+rover=Dog("Rover")#创建一个名叫Rover的狗狗
+satan=Cat("Satan")
+mary=Person("Mary")
